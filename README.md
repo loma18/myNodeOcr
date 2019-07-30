@@ -9,8 +9,10 @@
 1、在根目录下运行npm install;
 2、进入node_modules目录,解压缩aip-node-sdk-1.4.1.zip文件;
 3、进入aip-node-sdk-1.4.1文件夹并执行npm install;
-4、在根目录下运行npm start命令,浏览器自动打开并跳转至http://localhost:3000/uploadPhoto,如没有跳转,请自行打开网址;
-5、开心愉快地自行上传图片识别吧。
+4、进入public目录并执行npm install;
+5、进入public目录运行npm run build,此时会在根目录下生产build文件夹;
+6、在根目录下运行npm start命令,浏览器自动打开并跳转至http://localhost:3000/uploadPhoto,如没有跳转,请自行打开网址;
+7、开心愉快地自行上传图片识别吧。
 ###环境需求
 1.Express 是一个非常流行的node.js的web框架。基于connect(node中间件框架)。提供了很多便于处理http请求等web开发相关的扩展。
 2.OCR：
